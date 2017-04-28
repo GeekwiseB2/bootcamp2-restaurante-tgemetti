@@ -41,3 +41,58 @@ nav.navbar{
   margin-top:-7px;
 }
 /*End Navbar*/
+
+/*Carousel*/
+
+.wrap{
+  min-height: 100vh;
+}
+
+.carousel{
+  margin-bottom: 60px;
+}
+
+.carousel-caption{
+  z-index: 10;
+  padding-bottom:140px;
+}
+
+.carousel-inner .item{
+  width:100%;
+  height:600px;
+  background-size:cover;
+  background-position:center;
+}
+
+.main_img1{
+  background-image:url('../img/wood-2.jpg');
+}
+.main_logo{
+  max-height:300px;
+}
+
+.main_img2{
+  background-image:url('../img/restaurant-2.jpg');
+}
+
+.btn-danger{
+  color:white;
+  background-color:#f8512f;
+  border-color:transparent;
+}
+
+.btn-danger:hover{
+  background-color: #d34326;
+  border-color:transparent;
+}
+
+.p-text{
+  font-size: 16px;
+  color:#f7f7f7;
+
+}
+
+.main_img3{
+  background-image:url('../img/farm-2.jpg');
+}
+/*End Carousel*/
